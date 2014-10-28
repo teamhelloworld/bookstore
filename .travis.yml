@@ -1,2 +1,5 @@
-language:
-    java
+language: java
+branches:
+  only:
+    - master
+    - development
