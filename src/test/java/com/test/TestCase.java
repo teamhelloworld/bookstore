@@ -24,8 +24,7 @@ public class TestCase {
     
     public static void out(String str) {
         System.out.println(str + "\n");
-    }
-    
+    }    
     
     @BeforeClass
     public static void setUpClass() {
