@@ -1,7 +1,7 @@
-package com.bookstore.model;
+package com.bookstore.controller;
 
 /**
- * Base Model
+ * Base Controller Interface
  *
  * @category   Bookstore
  * @package    com.bookstore.controller
@@ -12,7 +12,6 @@ package com.bookstore.model;
  * @link       https://github.com/teamhelloworld/bookstore
  * @since      Class available since Release 1.0
  */
-public class BaseModel {
-    
-    
+interface IBaseController {
+    public void assign(String key, String value);
 }
