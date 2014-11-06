@@ -15,6 +15,7 @@ package com.bookstore.controller;
 abstract class BaseController implements IBaseController {    
 
     public BaseController() {
+
     }
 
     public void assign(String key, String value) {
